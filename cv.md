@@ -17,7 +17,6 @@ I would like to become a Front-End developer. Also, i want to learn C# and Unity
 ***
 
 ### **Code example**
-#### Example of C code
 ```
 function countBy(x, n) 
 {
