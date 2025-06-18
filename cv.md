@@ -29,6 +29,7 @@ function countBy(x, n)
   return arrayResult;
 }
 ```
+***
 
 ### **Work experience**
 I don't have commercial experience.
