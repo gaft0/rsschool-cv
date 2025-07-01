@@ -8,7 +8,7 @@
     justify-self: start;
     background-color: rgb(230, 230, 230);
 
-    width: 23%;
+    width: 100%;
 }
 
 .right-column {
@@ -16,7 +16,12 @@
     justify-self: end;
     background-color: rgb(230, 230, 230);
 
-    width: 23%;
+    width: 100%;
+}
+
+.center-column {
+    background-color: rgb(255, 255, 255);
+    width: 1200px;
 }
 
 .up-row {
@@ -83,4 +88,72 @@
 
     height: 140px;
     width: 140px;
+}
+
+.right-peninsula {
+    background-color: rgb(3, 82, 26);
+    height: 50px;
+    width: 400px;
+    border-radius: 0px 30px 0px 0px;
+
+    margin: 0 0 170px 0;
+}
+
+.island {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+.contact-information-title {
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+
+    padding: 12px 0px 8px 16px;
+    margin: 70px 0 -25px 0;
+}
+
+.contact-information {
+    font-size: 28px;
+    line-height: 10px;
+    color: rgb(3, 82, 26);
+
+    background-color: rgb(255, 255, 255);
+    height: 90px;
+    width: 382px;
+    border-radius: 0px 0px 100px 0px;
+    border: 4px solid rgb(3, 82, 26);
+    
+    margin:  18px 0px 0 0px;
+    padding: 0px 0 14px 10px;
+}
+
+.information-about-me-title {
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(3, 82, 26);
+
+    height: 50px;
+    width: 738px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.information-about-me {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-align: justify;
+    line-height: 30px;
+
+    font-size: 21px;
+    color: rgb(3, 82, 26);
+
+    height: 110px;
+    width: 680px;
+
+    border: 4px solid rgb(3, 82, 26);
+    border-radius: 0 0 90px 90px;
+
+    margin: -27px 0 0 0;
+    padding: 10px 25px;
 }
