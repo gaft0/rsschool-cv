@@ -1,12 +1,12 @@
 .container {
     display: flex;
     flex-direction: row;
+    background-color: rgb(230, 230, 230);
 }
 
 .left-column {
     display: flex;
     justify-self: start;
-    background-color: rgb(230, 230, 230);
 
     width: 100%;
 }
@@ -14,7 +14,6 @@
 .right-column {
     display: flex;
     justify-self: end;
-    background-color: rgb(230, 230, 230);
 
     width: 100%;
 }
@@ -112,22 +111,22 @@
     color: rgb(255, 255, 255);
 
     padding: 12px 0px 8px 16px;
-    margin: 60px 0 -25px 0;
+    margin: 70px 0 -25px 0;
 }
 
 .contact-information {
     font-size: 28px;
-    line-height: 10px;
+    line-height: 40px;
     color: rgb(3, 82, 26);
 
     background-color: rgb(255, 255, 255);
-    height: 110px;
+    height: 135px;
     width: 480px;
     border-radius: 0px 0px 100px 0px;
     border: 4px solid rgb(3, 82, 26);
     
     margin:  16px 0px 0px 0px;
-    padding: 0px 0 0px 10px;
+    padding: 0px 0 00px 10px;
 }
 
 .information-about-me-title {
@@ -207,22 +206,22 @@
     color: rgb(255, 255, 255);
 
     padding: 12px 0px 8px 16px;
-    margin: 60px 0 -25px 0;
+    margin: 60px 0 -10px 0;
 }
 
 .languages {
     font-size: 28px;
-    line-height: 10px;
     color: rgb(3, 82, 26);
+    line-height: 12px;
 
     background-color: rgb(255, 255, 255);
-    height: 140px;
+    height: 150px;
     width: 480px;
     border-radius: 0px 0px 100px 0px;
     border: 4px solid rgb(3, 82, 26);
     
-    margin:  16px 0px 0px 0px;
-    padding: 0px 0 0px 10px;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0 10px 10px;
 }
 
 .code-example-title {
@@ -242,7 +241,7 @@
     color: rgb(3, 82, 26);
 
     background-color: rgb(255, 255, 255);
-    height: 360px;
+    height: 320px;
     width: 482px;
     border-radius: 0px 0px 0px 100px;
     border: 4px solid rgb(3, 82, 26);
@@ -280,10 +279,10 @@
     
     font-size: 32px;
     color: rgb(3, 82, 26);
-    line-height: 0px;
+    line-height: 52px;
 
     background-color: rgb(255, 255, 255);
-    height: 240px;
+    height: 260px;
     width: 484px;
     border-radius: 0px 0px 0px 100px;
     border: 4px solid rgb(3, 82, 26);
@@ -306,7 +305,7 @@
     border-radius: 30px 30px 0px 0px;
 
     padding: 18px 0px 0px 0px;
-    margin: 40px 0 -25px 0;
+    margin: 60px 0 -16px 0;
 }
 
 .work-experience {
